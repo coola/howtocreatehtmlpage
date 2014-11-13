@@ -6,3 +6,16 @@ body {
     letter-spacing: 0.0725em;
     line-height: 1.5;
 }
+h1{
+    color: rgba(103, 99, 99, 0.65);
+}
+.shadowedDiv{
+  width: 300px;
+  height: 100px;
+  background-color: rgba(19, 19, 19, 0.68);
+  box-shadow: 10px 10px 5px rgba(11, 11, 11, 0.91);
+  padding: 10px 10px 10px 10px;
+}
+.codeDiv{
+  background-color: rgba(59, 59, 59, 0.68);
+}

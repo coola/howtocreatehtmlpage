@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <title>WebSchool main page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="prism.css" rel="stylesheet" />
 </head>
 <body>
- Od Warszawy aż do Marek zaiwania samowarek.<br>
- Od Marek aż do Warszawy zaiwania samowar pełen kawy.
+ <script src="prism.js"></script>
+ <div class="shadowedDiv">
+   Od Warszawy aż do Marek zaiwania samowarek.<br>
+   Od Marek aż do Warszawy zaiwania samowar pełen kawy.<br>
+ </div>
+ <h1>Jak stworzyć stronę internetową?</h1>
+ Aby stworzyć stronę internetową należy:
+ <ol>
+     <li> Stworzyć pusty plik <i>index.html</i> </li>
+     <li> Stworzyć pusty plik <i>styles.css</i> </li>
+     <li> Wpisać w pliku <i>index.html</i> następującą treść:
+         <pre><code class="language-markup">
+&lt;!DOCTYPE html&gt;
+      &lt;html&gt;
+      &lt;head lang="en"&gt;
+          &lt;meta charset="UTF-8"&gt;
+          &lt;title&gt;&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+
+      &lt;/body&gt;
+ &lt;/html&gt;
+         </code></pre>
+     </li>
+     <li>Aby zrobić ciemne tło na stronie należy w pliku <i>styles.css</i> wpisać:
+     <pre>
+         <code class="language-css">
+body {
+    background-color: rgba(8, 8, 8, 0.82);
+}
+      </code></pre>
+
+     </li>
+ </ol>
 </body>
 </html>
