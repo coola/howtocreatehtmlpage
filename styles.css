@@ -1,0 +1,8 @@
+body {
+    background-color: rgba(8, 8, 8, 0.82);
+    color: rgba(255, 164, 36, 0.85);
+    font-family: courier, monospace;
+    font-size: 12px;
+    letter-spacing: 0.0725em;
+    line-height: 1.5;
+}
